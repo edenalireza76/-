@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+B,
+p {
+    font-family: Vazir;
+}
+
+.carsul-slider {
+    margin: 100px;
+}
+
+.newriival {
+    background: green;
+    width: 50px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Vazir;
+    display: inline-block;
+}
+
+.newrrial1 {
+    color: #555;
+    font-family: vazir;
+}
+
+.ewrrial1 {
+    font-family: vazir;
+}
+
+.rating {
+    color: #ff523b;
+}
+
+.price {
+    color: #FE980F;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input {
+    border: 1px solid #ccc;
+    font-weight: bold;
+    height: 33px;
+    text-align: center;
+    width: 30px;
+}
+
+.cart {
+    background: #FE980F;
+    color: #ffff;
+    font-size: 15px;
+    font-family: vazir;
+}

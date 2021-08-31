@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: Vazir;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.navbar .navbar-light {
+    position: sticky;
+}
+
+.form-inline .btn-info {
+    font-family: Vazir;
+    border-radius: 15px;
+}
+
+.form-inline .btn-danger {
+    font-family: Vazir;
+    border-radius: 15px;
+}
+
+.img-title {
+    width: 30px;
+    height: 30px;
+}
+
+.uk-navbar-nav ul li {
+    font-family: Vazir;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h3,
+h2,
+h5 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+header {
+    background-image: url(./img/blog56.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 60px;
+    color: #ffffff;
+    margin: 1.5 0px;
+}
+
+.left-column {
+    float: left;
+    width: 75%;
+}
+
+.right-column {
+    width: 25%;
+    float: right;
+    padding-left: 20px;
+}
+
+.right-column .card img {
+    margin-bottom: 10px;
+}
+
+.card {
+    padding: 20px;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+
+.card img {
+    width: 100%;
+}
+
+
+/* responsive */
+
+@media(max-width:800px) {
+    .left-column,
+    .right-column {
+        width: 100%;
+        padding-left: 0px;
+    }
+}
+
+.media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.media a img {
+    width: 35px;
+    height: 35px;
+    max-width: 100px;
+}
+
+.media a img:hover {
+    transform: translateY(10px);
+    transition: all 0.4s;
+}
